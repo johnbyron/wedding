@@ -46,8 +46,9 @@
 <body id="top" data-spy="scroll">
 	
 <div id="wrapper">
-
+ 	
 	<!--NAVIGATION (menu left)-->
+	<!--
 	<div class="container">
 	<div class="header-quote">“Happily ever after is not a fairy tale. It’s a choice.”</div>
 		<ul id="gn-menu" class="gn-menu-main">
@@ -77,14 +78,16 @@
 							<li><a href="http://designwp.com/amor/#album" class="gn-icon fa-camera">Photo Album</a></li>
 							<li><a href="http://designwp.com/amor/#rsvp" class="gn-icon fa-book">RSVP</a></li>
 						</ul>
-					</div><!--end gn-scroller-->
+					</div><!--end gn-scroller--
 				</nav>
 			</li>
 			<li class="back"><a class="gn-icon fa-angle-double-up" href="http://designwp.com/amor/#top"></a></li>
 		</ul>
-	</div><!--end container-->
+	</div><!--end container--
 	<section class="ss-style-bottom"></section>
+	-->
 	<!--END NAVIGATION (menu left)-->
+	
 	
 	
 	
@@ -97,12 +100,12 @@
 		</ul>
 		<div class="container">
 			<div class="header animated tada">
-				<h1>Jason &amp; Sarah</h1>
-				<h4>ARE GETTING MARRIED</h4>
+				<h1>Alice &amp; Giorgio</h1>
+				<h4>SI SPOSANO</h4>
 				<hr>
-				<h4>Sunday, 24th of May 2015 at “La Pirati”, Vama Veche</h4>
+				<h4>Lunedì 4 luglio 2016 al Castello di Monasterolo</h4>
 				<div class="header-button">
-					<a href="http://designwp.com/amor/#guestbook">CELEBRATE WITH US!</a>
+					<a href="http://designwp.com/amor/#guestbook">FESTEGGIA CON NOI</a>
 				</div>
 			</div>
 		</div>
@@ -115,7 +118,7 @@
 	<div id="story" style="background-position: 50% 0px;">
 	<div class="story-content">
 		<div class="container">
-			<h3>Him &amp; Her. Their Happy Story!</h3>
+			<h3>Lui e Lei. La loro avventura!</h3>
 			<div class="heart content-style"></div>
 		
 			<div class="row">
@@ -126,8 +129,8 @@
 							<img src="./files/her.jpg" alt="">
 						</div>
 					</div>
-						<h4 class="bride-name">Sarah Jones</h4>
-						<h3 class="bride-description">Bride</h3>
+						<h4 class="bride-name">Alice Merli</h4>
+						<h3 class="bride-description">La Sposa</h3>
 							<div class="social">
 								<a href="http://designwp.com/amor/#"><i class="fa-facebook"></i></a>
 								<a href="http://designwp.com/amor/#"><i class="fa-twitter"></i></a>
@@ -149,8 +152,8 @@
 							<img src="./files/him.jpg" alt="">
 						</div>
 					</div>
-						<h4 class="groom-name">Jason Smith</h4>
-						<h3 class="groom-description">Groom</h3>
+						<h4 class="groom-name">Giorgio Cavaggion</h4>
+						<h3 class="groom-description">Lo Sposo</h3>
 							<div class="social">
 								<a href="http://designwp.com/amor/#"><i class="fa-facebook"></i></a>
 								<a href="http://designwp.com/amor/#"><i class="fa-twitter"></i></a>
@@ -171,20 +174,20 @@
 			<div id="countdown-bg">
 				<ul id="countdown" class="">
 					<li> <span class="days">18</span>
-					<div class="timeRefDays">days</div>
+					<div class="timeRefDays">giorni</div>
 					</li>
 					<li> <span class="hours">17</span>
-					<div class="timeRefHours">hours</div>
+					<div class="timeRefHours">ore</div>
 					</li>
 					<li> <span class="minutes">06</span>
-					<div class="timeRefMinutes">minutes</div>
+					<div class="timeRefMinutes">minuti</div>
 					</li>
 					<li> <span class="seconds">44</span>
-					<div class="timeRefSeconds">seconds</div>
+					<div class="timeRefSeconds">secondi</div>
 					</li>
 				</ul>
 			</div>
-			<div class="timer-text"><h2>till the happy event!</h2></div>
+			<div class="timer-text"><h2>al lieto evento!</h2></div>
 		</div><!--end container-->
 	</div><!--end #timer-->
 	<!--END TIMER-->
@@ -339,7 +342,7 @@
 		<div class="container">
 		
 			<div id="ceremony" class="">
-			<h3>The Wedding Ceremony</h3>
+			<h3>La cerimonia ed il ricevimento</h3>
 			<div class="heart content-style"></div>
 			
 				<div class="row">
@@ -381,7 +384,7 @@
 			
 			
 			<div id="party" class="">
-			<h3>The Wedding Party</h3>
+			<h3>Il menù</h3>
 			<div class="heart content-style"></div>
 			
 				<div class="row">
@@ -802,7 +805,7 @@ $(function () {
         maxwidth: 800,
         namespace: "large-btns"
       });
-}(jQuery));
+});
 
 
 /* -- ALBUM -- */
@@ -818,7 +821,7 @@ new Photostack( document.getElementById( 'photostack' ), {
 $(document).ready(function(){
 	"use strict";
     $("a[data-rel^='prettyPhoto']").prettyPhoto();
-}(jQuery));
+});
 
 
 /* -- WEDDING PARTY CAROUSEL -- */
@@ -829,7 +832,7 @@ $(document).ready(function() {
 		itemsDesktop : [1199,3],
 		itemsDesktopSmall : [979,3],
 	}(jQuery));
-}(jQuery));
+});
 
 
 /* -- ELEMENTS ANIMATION ON SCROLL -- */
@@ -862,7 +865,7 @@ $(window).scroll(function () {
 	$('.rsvp-text h2').each(_checkOffset('animated fadeIn'));	
 	$('.rsvp-text p').each(_checkOffset('animated fadeIn'));
 	$('#form').each(_checkOffset('animated fadeIn'));	
-}(jQuery));
+});
 
 
 /* -- GOOGLE MAP -- */
