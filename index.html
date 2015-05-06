@@ -750,7 +750,7 @@ jQuery('body').scrollspy({ target: '#gn-menu' });
 /* -- SLIDESHOW -- */
 $(function() {
 	cbpBGSlideshow.init();
-});	
+}(jQuery));	
 
 
 /* -- PARALLAX EFFECT SETTINGS -- */
@@ -774,7 +774,7 @@ $(document).ready(function() {
 	$('#album').parallax("50%", 0);
 	$('#rsvp').parallax("50%", 0);
 	$('#form').parallax("50%", 0);
-});
+}(jQuery));
 
 
 /* -- TIMER -- */
@@ -818,7 +818,7 @@ new Photostack( document.getElementById( 'photostack' ), {
 $(document).ready(function(){
 	"use strict";
     $("a[data-rel^='prettyPhoto']").prettyPhoto();
-});
+}(jQuery));
 
 
 /* -- WEDDING PARTY CAROUSEL -- */
@@ -828,8 +828,8 @@ $(document).ready(function() {
 		items : 4,
 		itemsDesktop : [1199,3],
 		itemsDesktopSmall : [979,3],
-	}(jQuery));
-});
+	});
+}(jQuery));
 
 
 /* -- ELEMENTS ANIMATION ON SCROLL -- */
@@ -862,7 +862,7 @@ $(window).scroll(function () {
 	$('.rsvp-text h2').each(_checkOffset('animated fadeIn'));	
 	$('.rsvp-text p').each(_checkOffset('animated fadeIn'));
 	$('#form').each(_checkOffset('animated fadeIn'));	
-});
+}(jQuery));
 
 
 /* -- GOOGLE MAP -- */
