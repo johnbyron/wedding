@@ -616,7 +616,7 @@ if (!Array.prototype.indexOf) {
         /* Simple Countdown Timer - change belows date to specific one you want.
         ==================================================================================== */
         if($("#countdown").length) {
-            CountDownTimer('12/08/2015 12:00 AM', 'countdown');
+            CountDownTimer('07/04/2016 05:00 PM', 'countdown');
         }
         function CountDownTimer(dt, id) {
             var end = new Date(dt);
@@ -642,10 +642,10 @@ if (!Array.prototype.indexOf) {
                 var minutes = Math.floor((distance % _hour) / _minute);
                 var seconds = Math.floor((distance % _minute) / _second);
 
-                document.getElementById(id).innerHTML = days + '<span>days</span>';
-                document.getElementById(id).innerHTML += hours + '<span>hours</span>';
-                document.getElementById(id).innerHTML += minutes + '<span>minutes</span>';
-                document.getElementById(id).innerHTML += seconds + '<span>seconds</span>';
+                document.getElementById(id).innerHTML = days + '<span>giorni</span>';
+                document.getElementById(id).innerHTML += hours + '<span>ore</span>';
+                document.getElementById(id).innerHTML += minutes + '<span>minuti</span>';
+                document.getElementById(id).innerHTML += seconds + '<span>secondi</span>';
             }
 
             timer = setInterval(showRemaining, 1000);
