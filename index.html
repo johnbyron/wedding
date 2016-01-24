@@ -146,7 +146,7 @@
                 <h1>Ci sposiamo!</h1>
                 <div class="info">
                    <div id="countdown">?<span>giorni</span>?<span>ore</span>?<span>minuti</span>?<span>secondi</span></div> 
-                    <span class="date">Lunedì 4 luglio 2016 a Monasterolo del Castello(BG)</span>
+                    <span class="date">Lunedì 4 luglio 2016 a Monasterolo del Castello (BG)</span>
                 </div>
                 <a href="http://logicathemes.com/yes/#couple" class="mouse scrollTo"><i class="fa fa-long-arrow-down"></i></a>
             </div>
@@ -159,6 +159,20 @@
         <!-- RSVP Now -->
         <section id="invitation" class="pattern">
             <span>Siete invitati al nostro matrimonio!</span>
+            <div class="box center corner">
+                            <div class="corners-topleft"></div>
+                            <div class="corners-bottomleft"></div>
+                            <div class="corners-topright"></div>
+                            <div class="corners-bottomright"></div>
+                            <h2>Bachelorette Party</h2>
+                            <div class="details">
+                                <span class="waddress">Club Insomnia</span>
+                                <span class="waddress">60 Switch Street, New York NY</span>
+                                <span class="wdate">Thursday, 16 August 2014</span>
+                                <span class="wtime">8:00 PM - 5:00 AM</span>
+                            </div>
+                            <span id="my_map"></span>                            
+                        </div>
             <a id="to-rsvp" href="http://logicathemes.com/yes/#contact" class="button scrollTo">CONFERMA PARTECIPAZIONE</a>
         </section>
         <!-- #RSVP Now -->
@@ -299,7 +313,7 @@
         <section class="parallax not-mobile fixed" data-type="parallax">
             <div class="overlay"></div>
             <div class="container">
-                <h2 class="quote">“We’ve met one summer night in the club. The music was to loud so we really didn’t speak that much. One great thing led to another and the rest is history”</h2>
+                <h2 class="quote">“Nella vita non ha importanza dove vai ma con chi viaggi"</h2>
             </div>
         </section>
         <!-- #Parallax Section Ends -->
@@ -951,5 +965,23 @@ HANYA 80.000!!! #hairclip #hairclipmurah #haircliptermurah #jualanmurah #jualhai
 
     </script>
 
+    <script>
+      function initMap() {
+        var mapDiv = document.getElementById('my_map');
+        var myLatLng = {lat: 45.758018, lng: 9.918682};
+        var map = new google.maps.Map(mapDiv, {
+          center: myLatLng,
+          zoom: 15
+        });
+        var marker = new google.maps.Marker({
+          position: myLatLng,
+          map: map,
+          title: 'Hello World!'
+        });
+
+      }
+    </script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?callback=initMap"async defer></script>
 
 </body></html>
