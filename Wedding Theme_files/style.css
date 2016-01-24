@@ -1688,7 +1688,7 @@ a.button i {
 ============================================================ */
 
 #twitter h3.section-title:before {
-    content: "\e00d";
+    content: "\e003";
     font-size: 40px;
 }
 #twitter .vibe {
