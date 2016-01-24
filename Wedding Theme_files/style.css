@@ -1271,7 +1271,6 @@ a.button i {
     font: 26px/46px 'Playfair Display', serif;
     margin: 40px auto;
     padding: 60px 160px;
-    text-shadow: 2px 2px 8px #000000;
 }
 .social ul li {
     display: inline-block;
@@ -1469,6 +1468,7 @@ a.button i {
     color: #fff;
     text-align: center;
     font: 34px/56px 'Playfair Display', serif;
+    text-shadow: 2px 2px 8px #000000;
 }
 /* =========================================================== 
     11.  Wedding Events
