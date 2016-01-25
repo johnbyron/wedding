@@ -43,8 +43,8 @@ a.button.fill {
 #navigation-dotted ul li a span:after {
     border-color: transparent transparent transparent #007995;
 }
-#invitation a {
-    background: #007995;
+#to-rsvp {
+  background: #007995;
 }
 .social ul li a:hover {
     color: #007995;
