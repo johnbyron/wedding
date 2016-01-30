@@ -1968,8 +1968,9 @@ select {
     19.  Map Section
 ============================================================ */
 #my_map {
-    width: 100%;
+    width: 80%;
     height: 400px;
+    margin: 0 auto;
 }
 #map-section {
     padding: 0;
