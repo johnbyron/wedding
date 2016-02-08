@@ -1240,6 +1240,7 @@ a.button i {
     font-size: 64px;
     text-transform: uppercase;
     letter-spacing: 10px;
+    text-shadow: 1px 1px 8px #000000;
 }
 #couple .images .column .lname {
     color: #fff;
